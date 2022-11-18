@@ -1,0 +1,51 @@
+{
+"skeleton": { "hash": "ZMIDbn3nYho", "spine": "4.0.53", "x": -99, "y": -3, "width": 212, "height": 188 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "parachute", "parent": "root", "length": 56.01, "rotation": 88.98, "x": 1, "y": 1 }
+],
+"slots": [
+	{ "name": "pickup_parachute", "bone": "parachute", "attachment": "pickup_parachute" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"pickup_parachute": {
+				"pickup_parachute": { "x": 90.09, "y": -4.39, "rotation": -88.98, "width": 212, "height": 188 }
+			}
+		}
+	}
+],
+"animations": {
+	"parachute_idle": {},
+	"parachute_shot": {
+		"slots": {
+			"pickup_parachute": {
+				"rgba": [
+					{ "time": 0.1, "color": "ffffffff" },
+					{ "time": 0.1333, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"parachute": {
+				"rotate": [
+					{}
+				],
+				"translate": [
+					{}
+				],
+				"scale": [
+					{},
+					{ "time": 0.0667, "x": 0.189, "y": 1.001 },
+					{ "time": 0.1333, "x": 0.082, "y": 0.495 }
+				],
+				"shear": [
+					{}
+				]
+			}
+		}
+	}
+}
+}

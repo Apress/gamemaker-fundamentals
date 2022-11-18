@@ -1,0 +1,60 @@
+{
+"skeleton": { "hash": "0AfMT+3fgvE", "spine": "4.0.62", "x": 2.6, "y": -42.35, "width": 95, "height": 91 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" }
+],
+"slots": [
+	{ "name": "1", "bone": "bone", "attachment": "9" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"1": {
+				"1": { "x": 24.01, "y": 0.03, "width": 55, "height": 51 },
+				"2": { "x": 46.06, "y": 3.13, "width": 97, "height": 100 },
+				"3": { "x": 60, "y": -4.19, "width": 150, "height": 162 },
+				"4": { "x": 79.48, "y": -1.55, "width": 194, "height": 214 },
+				"5": { "x": 80.7, "y": -3.33, "width": 197, "height": 223 },
+				"6": { "x": 84.96, "y": -2.83, "width": 194, "height": 216 },
+				"7": { "x": 85.64, "y": 2.23, "width": 180, "height": 211 },
+				"8": { "x": 74.62, "y": 1.01, "width": 147, "height": 190 },
+				"9": { "x": 50.1, "y": 3.15, "width": 95, "height": 91 }
+			}
+		}
+	}
+],
+"animations": {
+	"cannon_hit": {
+		"slots": {
+			"1": {
+				"rgba": [
+					{ "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.3, "color": "ffffffff" },
+					{ "time": 0.5667, "color": "ffffff40" }
+				],
+				"attachment": [
+					{ "name": "1" },
+					{ "time": 0.0333, "name": "2" },
+					{ "time": 0.0667, "name": "3" },
+					{ "time": 0.1, "name": "4" },
+					{ "time": 0.1667, "name": "5" },
+					{ "time": 0.2333, "name": "6" },
+					{ "time": 0.3, "name": "7" },
+					{ "time": 0.3667, "name": "8" },
+					{ "time": 0.4667, "name": "9" },
+					{ "time": 0.5667, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"bone": {
+				"scale": [
+					{ "x": 0.735, "y": 0.735 }
+				]
+			}
+		}
+	}
+}
+}

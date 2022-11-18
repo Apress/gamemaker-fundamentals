@@ -1,0 +1,6 @@
+pickup_parachute.png
+size:203,181
+filter:Linear,Linear
+pickup_parachute
+bounds:0,0,203,181
+offsets:3,4,212,188

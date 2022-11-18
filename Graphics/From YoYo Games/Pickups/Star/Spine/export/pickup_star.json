@@ -1,0 +1,128 @@
+{
+"skeleton": { "hash": "A1BqQKs7+4g", "spine": "4.0.52", "x": -41, "y": -36.51, "width": 82, "height": 79 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" }
+],
+"slots": [
+	{ "name": "pickup_star", "bone": "bone", "attachment": "pickup_star" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"pickup_star": {
+				"pickup_star": { "y": 2.99, "width": 82, "height": 79 }
+			}
+		}
+	}
+],
+"animations": {
+	"pickup_star_idle": {
+		"bones": {
+			"bone": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 0.3333, "curve": "stepped" },
+					{ "time": 0.6667 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 0.3333, "curve": "stepped" },
+					{ "time": 0.6667 }
+				],
+				"scale": [
+					{
+						"curve": [ 0.056, 1, 0.111, 1.075, 0.056, 1, 0.111, 1.075 ]
+					},
+					{
+						"time": 0.1667,
+						"x": 1.075,
+						"y": 1.075,
+						"curve": [ 0.222, 1.075, 0.278, 1, 0.222, 1.075, 0.278, 1 ]
+					},
+					{ "time": 0.3333, "curve": "stepped" },
+					{ "time": 0.6667 }
+				],
+				"shear": [
+					{ "curve": "stepped" },
+					{ "time": 0.3333, "curve": "stepped" },
+					{ "time": 0.6667 }
+				]
+			}
+		}
+	},
+	"pickup_star_in": {
+		"slots": {
+			"pickup_star": {
+				"rgba": [
+					{
+						"color": "ffffff00",
+						"curve": [ 0.067, 1, 0.133, 1, 0.067, 1, 0.133, 1, 0.067, 1, 0.133, 1, 0.067, 0, 0.133, 1 ]
+					},
+					{ "time": 0.2, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"bone": {
+				"rotate": [
+					{ "time": 0.2667 }
+				],
+				"translate": [
+					{ "time": 0.2667 }
+				],
+				"scale": [
+					{
+						"x": 0.294,
+						"y": 0.294,
+						"curve": [ 0.067, 0.294, 0.133, 1.224, 0.067, 0.294, 0.133, 1.224 ]
+					},
+					{
+						"time": 0.2,
+						"x": 1.224,
+						"y": 1.224,
+						"curve": [ 0.222, 1.224, 0.244, 1, 0.222, 1.224, 0.244, 1 ]
+					},
+					{ "time": 0.2667 }
+				],
+				"shear": [
+					{ "time": 0.2667 }
+				]
+			}
+		}
+	},
+	"pickup_star_out": {
+		"slots": {
+			"pickup_star": {
+				"rgba": [
+					{
+						"color": "ffffffff",
+						"curve": [ 0.111, 1, 0.222, 1, 0.111, 1, 0.222, 1, 0.111, 1, 0.222, 1, 0.111, 1, 0.222, 0 ]
+					},
+					{ "time": 0.3333, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"bone": {
+				"rotate": [
+					{}
+				],
+				"translate": [
+					{}
+				],
+				"scale": [
+					{
+						"curve": [ 0.111, 1.359, 0.222, 1.539, 0.111, 1.359, 0.222, 1.539 ]
+					},
+					{ "time": 0.3333, "x": 1.539, "y": 1.539 }
+				],
+				"shear": [
+					{}
+				]
+			}
+		}
+	}
+}
+}

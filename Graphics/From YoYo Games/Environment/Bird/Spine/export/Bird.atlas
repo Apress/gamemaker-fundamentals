@@ -1,0 +1,17 @@
+Bird.png
+size:122,38
+filter:Linear,Linear
+bird
+bounds:0,0,44,38
+bird_feather
+bounds:83,15,23,25
+rotate:90
+bird_feather_small
+bounds:83,7,20,8
+bird_trail
+bounds:103,2,12,13
+rotate:90
+bird_wing
+bounds:108,14,14,24
+explosion
+bounds:44,1,39,37

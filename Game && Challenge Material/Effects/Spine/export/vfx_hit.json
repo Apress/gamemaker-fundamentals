@@ -1,0 +1,54 @@
+{
+"skeleton": { "hash": "CJKvjA1/TqQ", "spine": "4.0.55", "x": -19.16, "y": -15.13, "width": 37, "height": 31 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "hit", "parent": "root" }
+],
+"slots": [
+	{ "name": "hit1", "bone": "hit", "attachment": "hit1" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"hit1": {
+				"hit1": { "x": -0.66, "y": 0.37, "width": 37, "height": 31 },
+				"hit2": { "x": -1.77, "y": -0.79, "width": 84, "height": 75 }
+			}
+		}
+	}
+],
+"animations": {
+	"hit": {
+		"slots": {
+			"hit1": {
+				"rgba": [
+					{ "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.0667, "color": "ffffffff" },
+					{ "time": 0.2333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "hit1" },
+					{ "time": 0.0667, "name": "hit2" },
+					{ "time": 0.2333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"hit": {
+				"rotate": [
+					{}
+				],
+				"translate": [
+					{}
+				],
+				"scale": [
+					{ "curve": "stepped" },
+					{ "time": 0.0667, "x": 0.554, "y": 0.554 },
+					{ "time": 0.2333, "x": 0.618, "y": 0.618 }
+				]
+			}
+		}
+	}
+}
+}

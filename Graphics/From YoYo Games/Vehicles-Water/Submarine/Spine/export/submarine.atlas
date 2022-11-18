@@ -1,0 +1,10 @@
+submarine.png
+size:228,138
+filter:Linear,Linear
+bubble
+bounds:183,0,20,20
+propeller
+bounds:0,1,19,183
+rotate:90
+submarine
+bounds:0,20,228,118

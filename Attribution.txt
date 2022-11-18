@@ -1,0 +1,93 @@
+Various Audio & Graphics Used In Game & Challenges: Permission Given To Use By Yoyogames.com, Please Do Not Redistribute These Assets.
+
+Graphics:
+Aeroplane: Pzuj / Opengameart.org - CC0
+Animated Boy Sprites: Bevouliin.com / Opengameart.org - CC0
+Arrow: oglsdl / Opengameart.org - CC0
+Asteroids: Jasper / Opengameart.org - CC0
+Bag: Flowly / Opengameart.org - CC0
+Ball: Gothicfan95 / Freepik.com
+Barrel: Manenwolf / Opengameart.org - CC0
+Beach Scene: Tgfcoder / Opengameart.org - CC0
+Bee: Carriejanesart / Opengameart.org - CC0
+Birds : Bevouliin.com / Opengameart.org - CC0 && CC-by 4.0
+Blue Character: Kenny / Opengameart.org - CC0
+Boats: Kutejnikov / Opengameart.org - CC0
+Bomb Sprite: Znevs / Opengameart.org - CC0
+Boss Missile: Bevouliin.com / Opengameart.org CC0
+Boss Plane: Bevouliin.com / Opengameart.org - CC0
+Bullets Set: Bevouliin.com / Opengameart.org - CC-BY 3.0
+Buttons: Game Developer Studio / Opengameart.org - CC-BY 3.0
+Crosshair: hc / Opengameart.org CC0
+Caveman: Hapiel / Opengameart.org - CC0
+Cloud: Bananaowl / Opengameart.org - CC-BY 3.0
+Clouds: Bevouliin.com / Opengameart.org - CC0
+Crate: Rfc1394/ Opengameart.org - CC0
+Crocodile Character: Bevouliin.com / Opengameart.org - CC0
+Dinosaur: Pzuj / Opengameart.org - CC0
+Donuts: Game Developer Studio / Opengameart.org - CC-BY 3.0
+Eggs: Ogreofwart / Opengameart.org - CC0
+Elements: Game Developer Studio / Opengameart.org - CC-BY 3.0
+Explosion: Stumpystrust / Opengameart.org - CC0
+Extra Character Sprites: Bevouliin.com / Opengameart.org - CC0
+Firenall: Cethiel / Opengameart.org - CC0
+Firework: Jellyfizh / Opengameart.org - CC0
+Fuel Collectable: Freestockimages / Opengameart.org - CC0
+Fuel Guage: JM.Atencia / Opengameart.org - CC-BY 3.0
+Fish: Sylly / Opengameart.org - CC0
+Forest: Ansimuz / Opengameart.org - CC0
+Gems: Wenrexa / Opengameart.org - CC0
+Grass Sky Backgrounds Images: Segel / Opengameart.org - CC0
+Green Horn Zombie Sprites: Bevouliin.com / Opengameart.org - CC0
+Green Zombie: Segel / Opengameart.org - CC0
+Guns & Bullets Images: Kay Lousberg / Opengameart.org - CC0
+Heart / Lives Sprite: Cdgramos / Opengameart.org - CC0
+Missile Enemy: Bevouliin.com / Opengameart.org - CC0
+Laser: Rawdanitsu / Opengameart.org - CC0
+Missile: Jm.atencia / Opengameart.org - CC-BY 3.0
+Mountain Background Images: Ansimuz / Opengameart.org - CC0
+Mountain Images: Ansimuz / Opengameart.org - CC0
+Mouse Icons: Qubodup / / Opengameart.org - CC0
+Padlocks: Rawpixel.com / Freepik.com
+Plane Game Background: Bevouliin.com / Opengameart.org - CC0 && OGA-BY-3.0
+Rocks: Bevouliin.com / Opengameart.org - CC0
+Rotating Coin Sprites: Puddin / Opengameart.org - CC0
+Rpg Character: Curt / Opengameart.org - CC-BY 3.0
+Sea Background: Donte / Opengameart.org - CC0
+Shinny Coins: Bevouliin.com / Opengameart.org - CC0 && CC-BY 4.0
+Space Background: Satur9 / Opengameart.org - CC0
+Space Parallax Images: Ansimuz / Opengameart.org - CC0
+Spaceship: Bevouliin.com / Opengameart.org - CC-BY 3.0 & CC0
+Spiky Land Monster: Bevouliin.com / Opengameart.org - CC0
+Star: Jellyfizh / Opengameart.org - CC0
+Tileset: Buch / Opengameart.org - CC0
+Top Down Zombie Images: Riley Gombart / Opengameart.org - CC0
+Underwater: Game Developer Studio / Opengameart.org - CC-BY 3.0
+Walking Green Monster Sprites: Bevouliin.com / Opengameart.org - CC0
+Wall: Beaterator / Opengameart.org - CC0
+
+Audio:
+Beep: Thisusernameis / Freesound.org - CC0
+Bird Sound: JackWilDesign / Freesound.org - CC0
+Bell Sound: Se2001 / Freesound.org - CC0
+Coins (long) dj997 / Freesound.org - CC-BY 3.0
+Dance Music: Davejf / Freesound.org - CC0
+Explosion Sound: Derplayer / Freesound.org - CC0
+Firework: Rudmer_rotteveel / Freesound.org - CC0
+Gun Sound: Mrrap4food / Freesound.org - CC0
+Heavy Beet Music: Jpmusic82 / Freesound.org - CC0
+Machine Gun Sound: Pgi / Freesound.org - CC0
+Meldoy Music: Drfx / Freesound.org - CC0
+Menu Sound: Apenguin73 / Freesound.org - CC0
+Nuke Sound: Tristanluigi / Freesound.org - CC0
+Ouch: Legnalegna55 / Freesound.org - CC0
+Ping Sound: Wilhellboy / Freesound.org - CC0
+Plane Game Level Music: Rezoner / Opengameart.org - CC-BY 3.0
+Plane Game Menu Music: Cynicmusic / Opengameart.org - CC0
+Plane Game Sound Effects: Subspaceaudio / Opengameart.org - CC0
+Random Sound 1: Mosrod / Freesound.org - CC0
+Random Sound 2: Littlerainyseasons / Freesound.org - CC0
+Random Sound 3: Elfstonepress / Freesound.org - CC0
+Random Sound 4: Alanmcki / Freesound.org - CC0
+Random Sound 5: Jeremysykes / Freesound.org - CC0
+Rocket Sound: Derplayer / Freesound.org - CC0

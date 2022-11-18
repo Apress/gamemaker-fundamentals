@@ -1,0 +1,82 @@
+{
+"skeleton": { "hash": "pWpQlmhl4sU", "spine": "4.0.55", "x": -41.97, "y": -57.89, "width": 122.29, "height": 113.2 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "shoot_explosion", "parent": "root" },
+	{ "name": "light glow", "parent": "shoot_explosion", "x": 0.93, "y": -9.49 }
+],
+"slots": [
+	{ "name": "shoot_explosion", "bone": "shoot_explosion", "attachment": "shoot_explosion" },
+	{ "name": "muzzleflash_glow4", "bone": "light glow", "color": "ff6227ff", "attachment": "muzzleflash_glow", "blend": "screen" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"muzzleflash_glow4": {
+				"muzzleflash_glow": { "x": 2.6, "y": -3.9, "width": 91, "height": 89 }
+			},
+			"shoot_explosion": {
+				"shoot_explosion": { "x": 27.32, "y": 5.32, "width": 106, "height": 100 },
+				"shoot_explosion2": { "x": 76.48, "y": 1.82, "width": 144, "height": 107 },
+				"shoot_explosion3": { "x": 160.82, "y": 3.36, "width": 109, "height": 121 },
+				"shoot_explosion4": { "x": 184.28, "y": 2.56, "width": 105, "height": 112 },
+				"shoot_explosion5": { "x": 190.09, "y": 1.06, "width": 107, "height": 115 },
+				"shoot_explosion6": { "x": 201.3, "y": -1.95, "width": 89, "height": 117 },
+				"shoot_explosion7": { "x": 216.04, "y": 6.98, "width": 64, "height": 94 }
+			}
+		}
+	}
+],
+"animations": {
+	"shoot_fire": {
+		"slots": {
+			"muzzleflash_glow4": {
+				"rgba": [
+					{ "color": "ff6227ff", "curve": "stepped" },
+					{ "time": 0.1667, "color": "ff6227ff" },
+					{ "time": 0.4, "color": "ff622700" }
+				],
+				"attachment": [
+					{ "name": "muzzleflash_glow" }
+				]
+			},
+			"shoot_explosion": {
+				"attachment": [
+					{ "name": "shoot_explosion" },
+					{ "time": 0.0333, "name": "shoot_explosion2" },
+					{ "time": 0.0667, "name": "shoot_explosion3" },
+					{ "time": 0.1, "name": "shoot_explosion3" },
+					{ "time": 0.1667, "name": "shoot_explosion4" },
+					{ "time": 0.2667, "name": "shoot_explosion5" },
+					{ "time": 0.3333, "name": "shoot_explosion6" },
+					{ "time": 0.4, "name": "shoot_explosion7" },
+					{ "time": 0.4667, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"shoot_explosion": {
+				"translate": [
+					{}
+				]
+			},
+			"light glow": {
+				"translate": [
+					{ "x": 20.8, "y": 18.2, "curve": "stepped" },
+					{ "time": 0.0333, "x": 94.51, "y": 18.2, "curve": "stepped" },
+					{ "time": 0.0667, "x": 141.21, "y": 18.2, "curve": "stepped" },
+					{ "time": 0.1667, "x": 174.54, "y": 18.2, "curve": "stepped" },
+					{ "time": 0.2667, "x": 182.34, "y": 18.2, "curve": "stepped" },
+					{ "time": 0.3333, "x": 198.9, "y": 18.2, "curve": "stepped" },
+					{ "time": 0.4, "x": 204.1, "y": 18.2 }
+				],
+				"scale": [
+					{ "x": 1.981, "y": 1.981, "curve": "stepped" },
+					{ "time": 0.0333, "x": 2.652, "y": 2.652 }
+				]
+			}
+		}
+	}
+}
+}

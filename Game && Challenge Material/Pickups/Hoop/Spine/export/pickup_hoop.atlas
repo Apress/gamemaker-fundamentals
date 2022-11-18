@@ -1,0 +1,7 @@
+pickup_hoop.png
+size:93,245
+filter:Linear,Linear
+Pickup_Hoop
+bounds:0,0,52,245
+Pickup_Hoop_Back
+bounds:52,3,41,242

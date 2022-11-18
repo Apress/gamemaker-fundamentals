@@ -1,0 +1,16 @@
+vfx_cloud_trail.png
+size:91,39
+filter:Linear,Linear
+pma:true
+cloud1
+bounds:2,3,34,30
+offsets:1,1,36,32
+rotate:90
+cloud3
+bounds:63,4,33,26
+offsets:1,1,35,28
+rotate:90
+cloud4
+bounds:34,2,35,27
+offsets:1,1,37,29
+rotate:90

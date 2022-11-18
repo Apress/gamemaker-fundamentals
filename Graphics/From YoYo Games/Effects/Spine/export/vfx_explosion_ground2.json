@@ -1,0 +1,80 @@
+{
+"skeleton": { "hash": "nxGsKj2Ssig", "spine": "4.0.55", "x": -80.96, "y": -75.96, "width": 158.1, "height": 159.7 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "explosion_ground2", "parent": "root" },
+	{ "name": "explosion_light5", "parent": "explosion_ground2", "x": -0.22, "y": 3.05, "scaleX": 1.7374, "scaleY": 1.7374 }
+],
+"slots": [
+	{ "name": "muzzleflash_glow7", "bone": "explosion_light5", "color": "ff5d00ff", "attachment": "muzzleflash_glow", "blend": "screen" },
+	{ "name": "explosion_ground2_frame1", "bone": "explosion_ground2", "attachment": "explosion_ground2_frame1" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"explosion_ground2_frame1": {
+				"explosion_ground2_frame1": { "x": -1.32, "y": 35.24, "width": 142, "height": 97 },
+				"explosion_ground2_frame2": { "x": 0.25, "y": 53.04, "width": 227, "height": 166 },
+				"explosion_ground2_frame3": { "x": 3.24, "y": 81.17, "width": 451, "height": 291 },
+				"explosion_ground2_frame4": { "x": 3.13, "y": 121.75, "width": 602, "height": 391 },
+				"explosion_ground2_frame5": { "x": 20.47, "y": 81.65, "width": 572, "height": 268 },
+				"explosion_ground2_frame6": { "x": 18.29, "y": 103.3, "width": 574, "height": 255 },
+				"explosion_ground2_frame7": { "x": 16.69, "y": 115.65, "width": 576, "height": 238 },
+				"explosion_ground2_frame8": { "x": 16.4, "y": 135.93, "width": 578, "height": 209 }
+			},
+			"muzzleflash_glow7": {
+				"muzzleflash_glow": { "x": -0.98, "y": -0.98, "width": 91, "height": 89 }
+			}
+		}
+	}
+],
+"animations": {
+	"explosion_ground2": {
+		"slots": {
+			"explosion_ground2_frame1": {
+				"attachment": [
+					{ "name": "explosion_ground2_frame1" },
+					{ "time": 0.0333, "name": "explosion_ground2_frame2" },
+					{ "time": 0.0667, "name": "explosion_ground2_frame3" },
+					{ "time": 0.1333, "name": "explosion_ground2_frame4" },
+					{ "time": 0.2, "name": "explosion_ground2_frame5" },
+					{ "time": 0.2667, "name": "explosion_ground2_frame6" },
+					{ "time": 0.3333, "name": "explosion_ground2_frame7" },
+					{ "time": 0.4, "name": "explosion_ground2_frame8" },
+					{ "time": 0.4667, "name": null }
+				]
+			},
+			"muzzleflash_glow7": {
+				"rgba": [
+					{ "color": "ff5d00ff", "curve": "stepped" },
+					{ "time": 0.2, "color": "ff5d00ff" },
+					{ "time": 0.3333, "color": "ff5d0000" }
+				],
+				"attachment": [
+					{ "name": "muzzleflash_glow" }
+				]
+			}
+		},
+		"bones": {
+			"explosion_ground2": {
+				"translate": [
+					{}
+				]
+			},
+			"explosion_light5": {
+				"translate": [
+					{ "x": 3.86, "y": 17.35 },
+					{ "time": 0.1333, "x": 11.57, "y": 57.84 },
+					{ "time": 0.3333, "x": 13.5, "y": 67.48 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.1333, "x": 3.492, "y": 3.492 },
+					{ "time": 0.3333, "x": 5.298, "y": 5.298 }
+				]
+			}
+		}
+	}
+}
+}

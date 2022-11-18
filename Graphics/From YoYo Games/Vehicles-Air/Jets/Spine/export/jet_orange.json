@@ -1,0 +1,165 @@
+{
+"skeleton": { "hash": "v237Q+FET9A", "spine": "4.0.56", "x": -96.94, "y": 15.43, "width": 247, "height": 86 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "jet", "parent": "root", "x": 24.56, "y": 46.43 }
+],
+"slots": [
+	{ "name": "jet_orange", "bone": "jet", "attachment": "jet_orange" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"jet_orange": {
+				"jet_orange": { "x": 2, "y": 12, "width": 247, "height": 86 },
+				"jet_orange2": { "x": 2, "y": -3.98, "width": 247, "height": 124 },
+				"jet_orange3": { "x": 0.51, "y": 3.71, "width": 250, "height": 231 },
+				"jet_orange4": { "x": 3.33, "y": 12.09, "width": 244, "height": 124 },
+				"jet_orange5": { "x": 1.85, "y": -3.85, "width": 247, "height": 86 },
+				"jet_orange6": { "x": 3.48, "y": -4.41, "width": 244, "height": 124 },
+				"jet_orange7": { "x": 0.52, "y": 3.79, "width": 250, "height": 231 },
+				"jet_orange8": { "x": 4.66, "y": 12, "width": 244, "height": 124 },
+				"jet_orange_flipped": { "x": 2, "y": -2.28, "width": 247, "height": 86 }
+			}
+		}
+	}
+],
+"animations": {
+	"jet_orange/jet_orange": {
+		"slots": {
+			"jet_orange": {
+				"attachment": [
+					{ "name": "jet_orange" },
+					{ "time": 0.0333, "name": "jet_orange" }
+				]
+			}
+		},
+		"bones": {
+			"jet": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 0.0333 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 0.0333 }
+				],
+				"scale": [
+					{ "curve": "stepped" },
+					{ "time": 0.0333 }
+				],
+				"shear": [
+					{ "curve": "stepped" },
+					{ "time": 0.0333 }
+				]
+			}
+		}
+	},
+	"jet_orange/jet_orange_barrel_full": {
+		"slots": {
+			"jet_orange": {
+				"attachment": [
+					{ "name": "jet_orange" },
+					{ "time": 0.0667, "name": "jet_orange2" },
+					{ "time": 0.1333, "name": "jet_orange3" },
+					{ "time": 0.2667, "name": "jet_orange4" },
+					{ "time": 0.3333, "name": "jet_orange5" },
+					{ "time": 0.4, "name": "jet_orange6" },
+					{ "time": 0.4667, "name": "jet_orange7" },
+					{ "time": 0.6333, "name": "jet_orange8" },
+					{ "time": 0.7, "name": "jet_orange" }
+				]
+			}
+		},
+		"bones": {
+			"jet": {
+				"scale": [
+					{
+						"curve": [ 0.034, 1, 0.05, 1, 0.034, 1, 0.05, 1.02 ]
+					},
+					{
+						"time": 0.0667,
+						"y": 1.04,
+						"curve": [ 0.083, 1, 0.111, 1, 0.083, 1.06, 0.111, 1.289 ]
+					},
+					{
+						"time": 0.1333,
+						"y": 1.289,
+						"curve": [ 0.178, 1, 0.174, 1, 0.178, 1.289, 0.174, 1.423 ]
+					},
+					{
+						"time": 0.2,
+						"y": 1.376,
+						"curve": [ 0.249, 1, 0.289, 1, 0.249, 1.29, 0.289, 1 ]
+					},
+					{
+						"time": 0.3333,
+						"curve": [ 0.378, 1, 0.422, 1, 0.378, 1, 0.422, 1.08 ]
+					},
+					{
+						"time": 0.4667,
+						"y": 1.08,
+						"curve": [ 0.483, 1, 0.507, 1, 0.483, 1.08, 0.507, 1.423 ]
+					},
+					{
+						"time": 0.5333,
+						"y": 1.376,
+						"curve": [ 0.582, 1, 0.612, 1, 0.582, 1.29, 0.612, 1.076 ]
+					},
+					{
+						"time": 0.6333,
+						"y": 1.073,
+						"curve": [ 0.655, 1, 0.678, 1, 0.655, 1.07, 0.678, 1.067 ]
+					},
+					{ "time": 0.7, "y": 1.053 }
+				],
+				"shear": [
+					{}
+				]
+			}
+		}
+	},
+	"jet_orange/jet_orange_barrel_half": {
+		"slots": {
+			"jet_orange": {
+				"attachment": [
+					{ "name": "jet_orange" },
+					{ "time": 0.0667, "name": "jet_orange2" },
+					{ "time": 0.1333, "name": "jet_orange3" },
+					{ "time": 0.2667, "name": "jet_orange4" },
+					{ "time": 0.3333, "name": "jet_orange_flipped" }
+				]
+			}
+		},
+		"bones": {
+			"jet": {
+				"scale": [
+					{
+						"curve": [ 0.034, 1, 0.05, 1, 0.034, 1, 0.05, 1.02 ]
+					},
+					{
+						"time": 0.0667,
+						"y": 1.04,
+						"curve": [ 0.083, 1, 0.111, 1, 0.083, 1.06, 0.111, 1.289 ]
+					},
+					{
+						"time": 0.1333,
+						"y": 1.289,
+						"curve": [ 0.178, 1, 0.174, 1, 0.178, 1.289, 0.174, 1.423 ]
+					},
+					{
+						"time": 0.2,
+						"y": 1.376,
+						"curve": [ 0.249, 1, 0.289, 1, 0.249, 1.29, 0.289, 1 ]
+					},
+					{ "time": 0.3333 }
+				],
+				"shear": [
+					{}
+				]
+			}
+		}
+	}
+}
+}

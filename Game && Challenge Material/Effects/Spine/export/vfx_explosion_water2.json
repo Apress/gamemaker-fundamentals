@@ -1,0 +1,105 @@
+{
+"skeleton": { "hash": "5XNLgJc3+Xg", "spine": "4.0.55", "x": -80.77, "y": -0.06, "width": 158, "height": 60 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "water_explosion1", "parent": "root" },
+	{ "name": "explosion_water2", "parent": "root" }
+],
+"slots": [
+	{ "name": "water_frame1", "bone": "water_explosion1", "attachment": "water_frame1" },
+	{ "name": "water2_frame1", "bone": "explosion_water2", "attachment": "water2_frame1" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"water2_frame1": {
+				"water2_frame1": { "x": -9.59, "y": 19.73, "width": 96, "height": 38 },
+				"water2_frame2": { "x": -10.17, "y": 47.66, "width": 97, "height": 96 },
+				"water2_frame3": { "x": -6.22, "y": 78.19, "width": 121, "height": 160 },
+				"water2_frame4": { "x": -9.19, "y": 103.29, "width": 140, "height": 216 },
+				"water2_frame5": { "x": -8.57, "y": 114.3, "width": 159, "height": 246 },
+				"water2_frame6": { "x": -8.51, "y": 111.12, "width": 166, "height": 240 },
+				"water2_frame7": { "x": -7.37, "y": 80.95, "width": 185, "height": 184 },
+				"water2_frame8": { "x": -4.57, "y": 68.26, "width": 202, "height": 164 },
+				"water2_frame9": { "x": -6.32, "y": 33.19, "width": 232, "height": 89 },
+				"water2_frame10": { "x": -5.1, "y": 9.84, "width": 263, "height": 43 },
+				"water2_frame11": { "x": -12.02, "y": 2.09, "width": 315, "height": 24 },
+				"water2_frame12": { "x": -14.61, "y": 2.76, "width": 284, "height": 22 }
+			},
+			"water_frame1": {
+				"water_frame1": { "x": -1.77, "y": 29.94, "width": 158, "height": 60 },
+				"water_frame2": { "x": -1.15, "y": 64.73, "width": 165, "height": 128 },
+				"water_frame3": { "x": -1.77, "y": 119.24, "width": 188, "height": 241 },
+				"water_frame4": { "x": -0.63, "y": 157.96, "width": 201, "height": 319 },
+				"water_frame5": { "x": -0.35, "y": 174.82, "width": 208, "height": 357 },
+				"water_frame6": { "x": -1.49, "y": 182.65, "width": 216, "height": 369 },
+				"water_frame7": { "x": -3.32, "y": 171.14, "width": 276, "height": 354 },
+				"water_frame8": { "x": -7.24, "y": 174.89, "width": 316, "height": 366 },
+				"water_frame9": { "x": -6.71, "y": 170.95, "width": 420, "height": 365 },
+				"water_frame10": { "x": -6.61, "y": 168.93, "width": 447, "height": 365 },
+				"water_frame11": { "x": -9.5, "y": 7.96, "width": 491, "height": 38 },
+				"water_frame12": { "x": -0.92, "y": 7.96, "width": 517, "height": 38 }
+			}
+		}
+	}
+],
+"animations": {
+	"explosion_water2": {
+		"slots": {
+			"water2_frame1": {
+				"attachment": [
+					{ "name": "water2_frame1" },
+					{ "time": 0.0333, "name": "water2_frame2" },
+					{ "time": 0.0667, "name": "water2_frame3" },
+					{ "time": 0.1333, "name": "water2_frame4" },
+					{ "time": 0.2, "name": "water2_frame5" },
+					{ "time": 0.2667, "name": "water2_frame6" },
+					{ "time": 0.3333, "name": "water2_frame7" },
+					{ "time": 0.4, "name": "water2_frame8" },
+					{ "time": 0.4667, "name": "water2_frame9" },
+					{ "time": 0.5333, "name": "water2_frame10" },
+					{ "time": 0.6, "name": "water2_frame11" },
+					{ "time": 0.6667, "name": "water2_frame12" },
+					{ "time": 0.7333, "name": null }
+				]
+			},
+			"water_frame1": {
+				"attachment": [
+					{ "name": "water_frame1" },
+					{ "time": 0.0333, "name": "water_frame2" },
+					{ "time": 0.0667, "name": "water_frame3" },
+					{ "time": 0.1333, "name": "water_frame4" },
+					{ "time": 0.2, "name": "water_frame5" },
+					{ "time": 0.2667, "name": "water_frame6" },
+					{ "time": 0.3333, "name": "water_frame7" },
+					{ "time": 0.4, "name": "water_frame8" },
+					{ "time": 0.4667, "name": "water_frame9" },
+					{ "time": 0.5333, "name": "water_frame10" },
+					{ "time": 0.6, "name": "water_frame11" },
+					{ "time": 0.6667, "name": "water_frame12" },
+					{ "time": 0.7333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"water_explosion1": {
+				"translate": [
+					{}
+				],
+				"scale": [
+					{ "x": -0.667, "y": 0.667 }
+				]
+			},
+			"explosion_water2": {
+				"translate": [
+					{}
+				],
+				"scale": [
+					{ "x": 1.39, "y": 0.91 }
+				]
+			}
+		}
+	}
+}
+}

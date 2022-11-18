@@ -1,0 +1,11 @@
+vfx_fire_jet.png
+size:107,51
+filter:Linear,Linear
+pma:true
+fire_inside
+bounds:88,2,47,17
+offsets:1,6,80,29
+rotate:90
+fire_outside
+bounds:2,8,84,41
+offsets:2,2,132,45

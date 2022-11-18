@@ -1,0 +1,15 @@
+vfx_fire_trail.png
+size:104,63
+filter:Linear,Linear
+pma:true
+fire_particle
+bounds:64,21,40,38
+offsets:1,1,42,40
+rotate:90
+fire_particle_light
+bounds:2,2,59,60
+offsets:2,1,64,66
+rotate:90
+fire_particle_small
+bounds:64,2,18,17
+offsets:1,1,20,19

@@ -1,0 +1,15 @@
+pickup_glow.png
+size:1176,487
+filter:Linear,Linear
+pma:true
+glow
+bounds:2,2,483,484
+offsets:16,15,512,512
+rotate:90
+glow1
+bounds:488,91,394,394
+offsets:1,1,396,396
+glow2
+bounds:884,194,291,290
+offsets:2,2,295,294
+rotate:90

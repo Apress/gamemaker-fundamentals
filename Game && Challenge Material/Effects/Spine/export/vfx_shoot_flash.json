@@ -1,0 +1,88 @@
+{
+"skeleton": { "hash": "aZ82J3yVLXI", "spine": "4.0.55", "x": -31.3, "y": -44.22, "width": 91, "height": 89 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "shoot_flash", "parent": "root" },
+	{ "name": "bone3", "parent": "shoot_flash", "length": 16.56, "rotation": 1, "x": 4.81, "y": -2.11 },
+	{ "name": "bone4", "parent": "shoot_flash", "x": 11.43, "y": -3.55 }
+],
+"slots": [
+	{ "name": "muzzleflash1", "bone": "bone3", "attachment": "muzzleflash1" },
+	{ "name": "muzzleflash_glow", "bone": "bone4", "attachment": "muzzleflash_glow", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"muzzleflash1": {
+				"muzzleflash1": { "x": 13.74, "y": 2.04, "rotation": -1, "width": 42, "height": 24 },
+				"muzzleflash2": { "x": 12.94, "y": 2.03, "rotation": -1, "width": 31, "height": 30 },
+				"muzzleflash3": { "x": 14.11, "y": 2.24, "rotation": -1, "width": 24, "height": 30 }
+			},
+			"muzzleflash_glow": {
+				"muzzleflash_glow": { "x": 2.76, "y": 3.83, "width": 91, "height": 89 }
+			}
+		}
+	}
+],
+"animations": {
+	"shoot_flash": {
+		"slots": {
+			"muzzleflash1": {
+				"attachment": [
+					{ "name": "muzzleflash1" },
+					{ "time": 0.0667, "name": "muzzleflash2" },
+					{ "time": 0.1333, "name": "muzzleflash3" },
+					{ "time": 0.2, "name": null }
+				]
+			},
+			"muzzleflash_glow": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.0333, "color": "fffffffe" },
+					{ "time": 0.2, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null },
+					{ "time": 0.0333, "name": "muzzleflash_glow" }
+				]
+			}
+		},
+		"bones": {
+			"bone3": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 0.2 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 0.2 }
+				],
+				"shear": [
+					{ "curve": "stepped" },
+					{ "time": 0.2 }
+				]
+			},
+			"bone4": {
+				"rotate": [
+					{}
+				],
+				"translate": [
+					{}
+				],
+				"scale": [
+					{}
+				],
+				"shear": [
+					{}
+				]
+			},
+			"shoot_flash": {
+				"translate": [
+					{}
+				]
+			}
+		}
+	}
+}
+}

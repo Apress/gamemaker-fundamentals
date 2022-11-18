@@ -1,0 +1,71 @@
+{
+"skeleton": { "hash": "t3ai9Cx8OR8", "spine": "4.0.55", "x": -39.3, "y": -66.65, "width": 133.59, "height": 130.65 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "shoot_flash2", "parent": "root" },
+	{ "name": "shoot_flash3", "parent": "shoot_flash2", "x": 31.75, "y": 2.94, "scaleX": 1.468, "scaleY": 1.468 }
+],
+"slots": [
+	{ "name": "shootflash2_1", "bone": "shoot_flash2", "attachment": "shootflash2_1" },
+	{ "name": "fire_particle_light2", "bone": "shoot_flash3", "color": "ff3509ff", "attachment": "muzzleflash_glow", "blend": "screen" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"fire_particle_light2": {
+				"muzzleflash_glow": { "x": -2.9, "y": -2.9, "width": 91, "height": 89 }
+			},
+			"shootflash2_1": {
+				"shootflash2_1": { "x": 34.9, "y": -0.97, "width": 94, "height": 73 },
+				"shootflash2_2": { "x": 68.09, "y": -1.23, "width": 59, "height": 55 },
+				"shootflash2_3": { "x": 86.82, "y": -1.09, "width": 45, "height": 64 }
+			}
+		}
+	}
+],
+"animations": {
+	"shoot_flash2": {
+		"slots": {
+			"fire_particle_light2": {
+				"rgba": [
+					{ "color": "ff3509ff" },
+					{ "time": 0.1333, "color": "ff350900" }
+				]
+			},
+			"shootflash2_1": {
+				"attachment": [
+					{ "name": "shootflash2_1" },
+					{ "time": 0.0667, "name": "shootflash2_2" },
+					{ "time": 0.1333, "name": "shootflash2_3" },
+					{ "time": 0.2, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"shoot_flash2": {
+				"translate": [
+					{}
+				]
+			},
+			"shoot_flash3": {
+				"rotate": [
+					{}
+				],
+				"translate": [
+					{},
+					{ "time": 0.0333, "x": 1.07 },
+					{ "time": 0.1333, "x": 52.54 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.1333, "x": 0.812, "y": 0.812 }
+				],
+				"shear": [
+					{}
+				]
+			}
+		}
+	}
+}
+}

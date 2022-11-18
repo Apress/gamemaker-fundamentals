@@ -1,0 +1,8 @@
+vfx_cannonball_trail.png
+size:38,40
+filter:Linear,Linear
+pma:true
+scale:0.5
+CannonballTrailSmoke
+bounds:2,2,34,36
+offsets:2,1,37,38

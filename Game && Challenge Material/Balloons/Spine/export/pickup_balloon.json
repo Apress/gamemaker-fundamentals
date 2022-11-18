@@ -1,0 +1,102 @@
+{
+"skeleton": { "hash": "QXO1Ubtc6IU", "spine": "4.0.53", "x": -48.18, "y": -75.94, "width": 99, "height": 185 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "x": -0.15, "y": 53.73 }
+],
+"slots": [
+	{ "name": "pickup_balloon", "bone": "root", "attachment": "pickup_balloon" },
+	{ "name": "pickup_balloon_pieces", "bone": "bone" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"pickup_balloon": {
+				"pickup_balloon": { "x": 1.32, "y": 16.56, "width": 99, "height": 185 }
+			},
+			"pickup_balloon_pieces": {
+				"pickup_balloon_pieces": { "x": 0.86, "y": -5.17, "width": 81, "height": 90 }
+			}
+		}
+	}
+],
+"animations": {
+	"balloon_idle": {
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 0.0333 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 0.0333 }
+				],
+				"scale": [
+					{ "curve": "stepped" },
+					{ "time": 0.0333 }
+				],
+				"shear": [
+					{ "curve": "stepped" },
+					{ "time": 0.0333 }
+				]
+			}
+		}
+	},
+	"balloon_pop": {
+		"slots": {
+			"pickup_balloon": {
+				"attachment": [
+					{ "time": 0.0333, "name": null }
+				]
+			},
+			"pickup_balloon_pieces": {
+				"rgba": [
+					{ "time": 0.0333, "color": "ffffffff" },
+					{ "time": 0.1, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.0333, "name": "pickup_balloon_pieces" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{}
+				],
+				"translate": [
+					{}
+				],
+				"scale": [
+					{}
+				],
+				"shear": [
+					{}
+				]
+			},
+			"bone": {
+				"rotate": [
+					{}
+				],
+				"translate": [
+					{},
+					{ "time": 0.1, "y": -3.01, "curve": "stepped" },
+					{ "time": 0.3333, "y": -3.01 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.0333, "x": 0.84, "y": 0.84 },
+					{ "time": 0.1, "x": 1.351, "y": 1.351, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1.351, "y": 1.351 }
+				],
+				"shear": [
+					{}
+				]
+			}
+		}
+	}
+}
+}

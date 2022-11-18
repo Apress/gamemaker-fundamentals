@@ -1,0 +1,14 @@
+pickup_crate.png
+size:172,88
+filter:Linear,Linear
+crate
+bounds:0,0,88,79
+rotate:90
+cratepiece1
+bounds:79,35,53,47
+rotate:90
+cratepiece2
+bounds:126,36,46,52
+cratepiece3
+bounds:79,0,35,47
+rotate:90

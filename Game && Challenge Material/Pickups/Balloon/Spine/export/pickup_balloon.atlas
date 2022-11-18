@@ -1,0 +1,9 @@
+pickup_balloon.png
+size:257,91
+filter:Linear,Linear
+pickup_balloon
+bounds:0,0,91,176
+offsets:4,3,99,185
+rotate:90
+pickup_balloon_pieces
+bounds:176,1,81,90

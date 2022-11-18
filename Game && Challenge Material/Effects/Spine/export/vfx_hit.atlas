@@ -1,0 +1,11 @@
+vfx_hit.png
+size:116,75
+filter:Linear,Linear
+pma:true
+hit1
+bounds:85,38,35,29
+offsets:1,1,37,31
+rotate:90
+hit2
+bounds:2,2,81,71
+offsets:2,2,84,75
